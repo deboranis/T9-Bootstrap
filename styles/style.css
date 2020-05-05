@@ -4,6 +4,8 @@
 
 a:hover {
     font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 .img_carousel {
@@ -16,6 +18,7 @@ a:hover {
     color: white;
     text-align: center;
     padding: 15px 20px;
+    margin-top: 20px;
 }
 
 h1 {
