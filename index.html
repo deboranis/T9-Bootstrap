@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
+
+    <title>Débora Nisenbaum - Portfolio</title>
 </head>
 
 <body>
@@ -45,10 +47,10 @@
                     <img class="d-block w-100 img_carousel" src="./imgs/aula.jpg" alt="alunas Reprograma em aula online">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img_carousel" src="./imgs/banana.jpeg" alt="Segundo Slide">
+                    <img class="d-block w-100 img_carousel" src="./imgs/banana.jpeg" alt="videochamada com Débora">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img_carousel" src="./imgs/pesquisa.jpeg" alt="Terceiro Slide">
+                    <img class="d-block w-100 img_carousel" src="./imgs/pesquisa.jpeg" alt="pesquisa de usuário com Débora">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -65,22 +67,128 @@
     <main>
         <div class="titulos">
             <h1>Débora Nisenbaum</h1>
-            <h2>Desenvolvedora Front-End</h2>
+            <h4>Desenvolvedora Front-End</h4>
         </div>
 
-        <div>
-            <a>github.com/deboranis</a>
-            <a>linkedin.com/deboranis</a>
-            <a>dc.nisen@hotmail.com</a>
+        <div class="contato d-flex flex-column flex-md-row justify-content-md-around align-items-center">
+            <div>
+                <img src="./imgs/github.png" alt="ícone do github" class="logo">
+                <a class="logo_contato" href="https://github.com/deboranis" target="_blank">github.com/deboranis</a>
+            </div>
+            <div>
+                <img src="./imgs/linkedin.png" alt="ícone do github" class="logo">
+                <a class="logo_contato" href="https://linkedin.com/deboranis" target="_blank">linkedin.com/deboranis</a>
+            </div>
+            <div>
+                <img src="./imgs/mail.png" alt="ícone de email" class="logo">
+                <a class="logo_contato" href="mailto:dc.nisen@hotmail.com" target="_blank">dc.nisen@hotmail.com</a>
+            </div>
         </div>
 
-        <div>
+        <section class="caixa_textos d-flex flex-column flex-lg-row justify-content-lg-around">
+            <div class="w-100 max">
+                <h3 class="text-white font-weight-bold">Habilidades</h3>
+                <div class="row text-center">
+                    <div class="col">
+                        <i class="fab fa-git-alt fa-3x"></i>
+                        <p class="text-white">Git</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <p class="text-white">CSS</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-html5 fa-3x"></i>
+                        <p class="text-white">HTML</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <i class="fab fa-js-square fa-3x"></i>
+                        <p class="text-white">JavaScript</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-bootstrap fa-3x"></i>
+                        <p class="text-white">Bootstrap</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-github-square fa-3x"></i>
+                        <p class="text-white">Github</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <i class="fab fa-figma fa-3x"></i>
+                        <p class="text-white">Figma</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-react fa-3x"></i>
+                        <p class="text-white">React</p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-tasks fa-3x"></i>
+                        <p class="text-white">Scrum</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <i class="fab fa-sass fa-3x"></i>
+                        <p class="text-white">Sass</p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-book fa-3x"></i>
+                        <p class="text-white">jQuery</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-adobe fa-3x"></i>
+                        <p class="text-white">Adobe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 max">
+                <h3 class="text-white">Sobre</h3>
+                <p class="text-white text-center">Débora é paulistana, tem 27 anos e é uma dev em formação. Antes de se aventurar no front-end, formou-se em Comunicação Social e migrou da vida de freelancer produzindo conteúdo para mídias sociais para a fotografia, onde permaneceu por
+                    4 anos. Isso lhe trouxe bastante experiência com diagramação, estética e atenção aos detalhes. <br> Nessa página você pode encontrar seu portfolio, com algumas das páginas de sua criação. <br> Outras áreas de interesse: UX, back-end,
+                    artes visuais, videomaking.</p>
+            </div>
+        </section>
 
-        </div>
+        <section class="caixa_cards">
+            <h3>Portfolio</h3>
+            <div class="card-deck">
+                <div class="card text-center borda">
+                    <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">M de Maravilhosa</h5>
+                        <p class="card-text">Este é um projeto desenvolvido coletivamente com as outras alunas. Cada uma construiu uma página falando sobre uma mulher maravilhosa.</p>
+                        <p class="card-text"><small class="text-muted">Abril 2020</small></p>
+                        <a href="#" class="btn btn-primary botao">Veja mais!</a>
+                    </div>
+                </div>
+                <div class="card text-center borda">
+                    <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mundo Gelado</h5>
+                        <p class="card-text">Site construído para uma agência de viagens especializada em lugares muito frios. Brrrr!</p>
+                        <p class="card-text"><small class="text-muted">Abril 2020</small></p>
+                        <a href="#" class="btn btn-primary botao">Veja mais!</a>
+                    </div>
+                </div>
+                <div class="card text-center borda">
+                    <img class="card-img-top" src="./imgs/todolist.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">To Do List</h5>
+                        <p class="card-text">Exercício de lógica de programação desenvolvido em JavaScript. Uma ferramenta de lista de tarefas.</p>
+                        <p class="card-text"><small class="text-muted">Maio 2020</small></p>
+                        <a href="#" class="btn btn-primary botao">Veja mais!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-    <footer class="footer">Desenvolvido com Bootstrap por Débora, enquanto aluna da <a href="http://reprograma.com.br">[reprograma]</a> 2019</footer>
+    <footer class="footer text-white">Desenvolvido com Bootstrap por Débora, enquanto aluna da <a href="http://reprograma.com.br">[reprograma]</a> 2019</footer>
 
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
