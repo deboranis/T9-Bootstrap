@@ -1,32 +1,129 @@
-.bg-roxo {
-    background-color: #7E459B;
+/* -----LINKS E ICONES----- */
+
+a {
+    color: white;
 }
 
 a:hover {
     font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.card a {
+    font-weight: normal;
+}
+
+.contato i {
+    color: #7E459B;
+}
+
+i {
+    color: white;
+}
+
+
+/* -------TITULOS-------- */
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    color: #7E459B;
+}
+
+h2 {
+    font-weight: 600;
+    margin: 40px 40px 50px;
+    text-align: center;
+    color: #7E459B;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px 0 30px;
+    color: #7E459B;
+    font-weight: 700;
+}
+
+h4 {
+    font-style: italic;
+    text-align: center;
+    font-weight: 300;
+}
+
+h5 {
+    font-weight: 600;
+    color: #7E459B
+}
+
+.titulos {
+    margin: 40px 50px;
+    color: #7E459B
+}
+
+
+/* ------DEMAIS AJUSTES------ */
+
+.bg-roxo {
+    background-color: #7E459B;
 }
 
 .img_carousel {
     object-fit: cover;
     height: 500px;
+    object-position: center top;
 }
+
+.contato {
+    margin: 30px 0;
+}
+
+.logo_contato {
+    color: #7E459B
+}
+
+.logo_contato:hover {
+    background-color: #7E459B
+}
+
+.caixa_textos {
+    background-color: #7E459B;
+    padding: 20px 20px;
+}
+
+.caixa_cards {
+    padding: 20px 20px;
+}
+
+.max {
+    max-width: 500px;
+}
+
+.borda_card {
+    border: 1px solid rgb(216, 181, 233);
+}
+
+
+/* -------BOTOES------ */
+
+.botao {
+    background-color: #7E459B;
+    border: 2px solid white;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #7E459B;
+    border: 2px #7E459B solid;
+}
+
+
+/* -------FOOTER------- */
 
 .footer {
     background-color: #7E459B;
     color: white;
     text-align: center;
     padding: 15px 20px;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    font-style: italic;
-    text-align: center;
-}
-
-.titulos {
-    margin: 30px 50px;
+    margin-top: 20px;
 }
