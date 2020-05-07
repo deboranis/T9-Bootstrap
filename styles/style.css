@@ -1,4 +1,4 @@
-/* -----LINKS----- */
+/* -----LINKS E ICONES----- */
 
 a {
     color: white;
@@ -14,12 +14,27 @@ a:hover {
     font-weight: normal;
 }
 
+.contato i {
+    color: #7E459B;
+}
+
+i {
+    color: white;
+}
+
 
 /* -------TITULOS-------- */
 
 h1 {
     text-align: center;
     font-weight: 600;
+    color: #7E459B;
+}
+
+h2 {
+    font-weight: 600;
+    margin: 40px 40px 50px;
+    text-align: center;
     color: #7E459B;
 }
 
@@ -34,6 +49,11 @@ h4 {
     font-style: italic;
     text-align: center;
     font-weight: 300;
+}
+
+h5 {
+    font-weight: 600;
+    color: #7E459B
 }
 
 .titulos {
@@ -51,10 +71,7 @@ h4 {
 .img_carousel {
     object-fit: cover;
     height: 500px;
-}
-
-.logo {
-    max-width: 30px;
+    object-position: center top;
 }
 
 .contato {
@@ -74,19 +91,20 @@ h4 {
     padding: 20px 20px;
 }
 
-i {
-    color: white;
-}
-
-.icones {
-    display: inline-block;
-    padding: 5px 5px;
-    align-content: center;
-}
-
 .caixa_cards {
     padding: 20px 20px;
 }
+
+.max {
+    max-width: 500px;
+}
+
+.borda_card {
+    border: 1px solid rgb(216, 181, 233);
+}
+
+
+/* -------BOTOES------ */
 
 .botao {
     background-color: #7E459B;
@@ -97,14 +115,6 @@ i {
     background-color: white;
     color: #7E459B;
     border: 2px #7E459B solid;
-}
-
-.max {
-    max-width: 500px;
-}
-
-.borda {
-    border: 1px solid rgb(216, 181, 233);
 }
 
 
